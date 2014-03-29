@@ -27,6 +27,8 @@
       <project path="cts" name="platform/cts" />
       <project path="dalvik" name="platform/dalvik" />
       <project path="development" name="platform/development" />
+      <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="github" revision="jellybean" />
+      <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="github" revision="jellybean" />
       <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
       <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
       <project path="device/common" name="device/common" />
@@ -257,6 +259,7 @@
       <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
       <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="github" revision="jellybean"/>
       <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+      <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="github" revision="jellybean" />
       <project path="libcore" name="android_libcore" remote="github" revision="jellybean"/>
       <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
       <project path="ndk" name="platform/ndk" />
