@@ -73,7 +73,6 @@
   <project path="system/core" name="android_system_core" remote="github" revision="jellybean" />
   <project path="system/extras" name="android_system_extras" remote="github" revision="jellybean" />
   <project path="system/security" name="android_system_security" remote="github" revision="jellybean" />
-  <project path="system/vold" name="android_system_vold" remote="github" revision="jellybean" />
 
   <!--Evervolv Extra Projects-->
   <project path="android" name="android" remote="Solitarily" revision="jellybean" />
@@ -374,6 +373,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
+  <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 </manifest>
