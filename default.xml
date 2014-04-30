@@ -34,7 +34,7 @@
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="development" name="CyanogenMod/android_development" />
+  <project path="development" name="Solitarily/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
@@ -46,10 +46,8 @@
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
-  <project path="device/htc/msm8660-common" name="Team-Hydra/android_device_htc_msm8660-common" />
-  <project path="device/htc/pyramid" name="Team-Hydra/android_device_htc_pyramid" />
-  <project path="device/htc/shooter" name="Team-Hydra/android_device_htc_shooter" />
-  <project path="device/htc/shooter-common" name="Team-Hydra/android_device_htc_shooter-common" />
+  <project path="device/htc/rider" name="Solitarily/android_device_htc_rider" />
+  <project path="device/htc/msm8660-common" name="Solitarily/android_device_htc_msm8660-common" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
@@ -177,7 +175,7 @@
   <project path="external/libnl-headers" name="CyanogenMod/android_external_libnl-headers" groups="pdk" />
   <project path="external/libogg" name="CyanogenMod/android_external_libogg" />
   <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" />
-  <project path="external/libphonenumber" name="CyanogenMod/android_external_libphonenumber" />
+  <project path="external/libphonenumber" name="Solitarily/android_external_libphonenumber" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
@@ -341,7 +339,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="kernel/htc/msm8660" name="Team-Hydra/android_kernel_htc_msm8660" />
+  <project path="kernel/htc/msm8660" name="Solitarily/android_kernel_htc_msm8660" />
   <project path="kernel/htc/msm8660-caf" name="Team-Hydra/android_kernel_htc_msm8660-caf" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
@@ -352,15 +350,14 @@
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
-  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
+  <project path="packages/apps/Calendar" name="Solitarily/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
-  <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
-  <project path="packages/apps/CMWimaxSettings" name="Team-Hydra/android_packages_apps_CMWimaxSettings" />
+  <project path="packages/apps/CMWimaxSettings" name="Solitarily/android_packages_apps_CMWimaxSettings" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
@@ -465,9 +462,8 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="vendor/cm" name="Team-Hydra/android_vendor_cm" />
+  <project path="vendor/cm" name="Solitarily/android_vendor_cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
-  <project path="vendor/htc" name="Team-Hydra/android_vendor_htc" />
   <project path="vendor/htc/rider" name="Solitarily/android_vendor_htc_rider" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
