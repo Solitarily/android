@@ -17,11 +17,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="Solitarily/android_build" groups="pdk" >
+  <project path="build" name="Team-Hydra/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="Solitarily/android" />
+  <project path="android" name="Team-Hydra/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" />
@@ -35,7 +35,8 @@
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="development" name="Solitarily/android_development" />
+  <project path="development" name="CyanogenMod/android_development" />
+  <project path="device/asus/flo" name="Team-Hydra/android_device_asus_flo" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
@@ -47,8 +48,26 @@
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
-  <project path="device/htc/rider" name="Solitarily/android_device_htc_rider" />
-  <project path="device/htc/msm8660-common" name="Solitarily/android_device_htc_msm8660-common" />
+  <project path="device/htc/glacier" name="Team-Hydra/android_device_htc_glacier" />
+  <project path="device/htc/jewel" name="Team-Hydra/android_device_htc_jewel" />
+  <project path="device/htc/m7-common" name="Team-Hydra/android_device_htc_m7-common" />
+  <project path="device/htc/m7spr" name="Team-Hydra/android_device_htc_m7spr" />
+  <project path="device/htc/msm7x30-common" name="Team-Hydra/android_device_htc_msm7x30-common" />
+  <project path="device/htc/msm8660-common" name="Team-Hydra/android_device_htc_msm8660-common" />
+  <project path="device/htc/msm8960-common" name="Team-Hydra/android_device_htc_msm8960-common" />
+  <project path="device/htc/holiday" name="Team-Hydra/android_device_htc_holiday" />
+  <project path="device/htc/pyramid" name="Team-Hydra/android_device_htc_pyramid" />
+  <project path="device/htc/s4-common" name="Team-Hydra/android_device_htc_s4-common" />
+  <project path="device/htc/shooter" name="Team-Hydra/android_device_htc_shooter" />
+  <project path="device/htc/shooter-common" name="Team-Hydra/android_device_htc_shooter-common" />
+  <project path="device/htc/shooterk" name="Team-Hydra/android_device_htc_shooterk" />
+  <project path="device/htc/shootervm" name="Team-Hydra/android_device_htc_shootervm" />
+  <project path="device/htc/speedy" name="Team-Hydra/android_device_htc_speedy" />
+  <project path="device/samsung/d710" name="Team-Hydra/android_device_samsung_d710" />
+  <project path="device/samsung/galaxys2-common" name="CyanogenMod/android_device_samsung_galaxys2-common" />
+  <project path="device/samsung/jflte" name="Team-Hydra/android_device_samsung_jflte" />
+  <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" />
+  <project path="device/samsung/qcom-common" name="Team-Hydra/android_device_samsung_qcom-common" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
@@ -178,7 +197,7 @@
   <project path="external/libnl-headers" name="CyanogenMod/android_external_libnl-headers" groups="pdk" />
   <project path="external/libogg" name="CyanogenMod/android_external_libogg" />
   <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" />
-  <project path="external/libphonenumber" name="Solitarily/android_external_libphonenumber" />
+  <project path="external/libphonenumber" name="CyanogenMod/android_external_libphonenumber" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
@@ -339,12 +358,21 @@
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk"  />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
+  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="kernel/htc/msm8660" name="Solitarily/android_kernel_htc_msm8660" />
+  <project path="kernel/google/msm" name="Team-Hydra/android_kernel_google_msm" />
+  <project path="kernel/htc/m7" name="Team-Hydra/android_kernel_htc_m7" />
+  <project path="kernel/htc/msm7x30" name="Team-Hydra/android_kernel_htc_msm7x30-3.0" />
+  <project path="kernel/htc/msm8660" name="Team-Hydra/android_kernel_htc_msm8660" />
   <project path="kernel/htc/msm8660-caf" name="Team-Hydra/android_kernel_htc_msm8660-caf" />
+  <project path="kernel/htc/msm8960" name="Team-Hydra/android_kernel_htc_msm8960" />
+  <project path="kernel/samsung/smdk4412" name="Team-Hydra/android_kernel_samsung_smdk4412" />
+  <project path="kernel/samsung/jf" name="Team-Hydra/android_kernel_samsung_jf" />
+  <project path="kernel/samsung/Ramdisks" name="Team-Hydra/SGS4-RAMDISKS" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
@@ -352,16 +380,17 @@
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
-  <project path="packages/apps/Browser" name="Solitarily/android_packages_apps_Browser" />
+  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
-  <project path="packages/apps/Calendar" name="Solitarily/android_packages_apps_Calendar" />
+  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
+  <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
-  <project path="packages/apps/CMWimaxSettings" name="Solitarily/android_packages_apps_CMWimaxSettings" />
+  <project path="packages/apps/CMWimaxSettings" name="Team-Hydra/android_packages_apps_CMWimaxSettings" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
@@ -380,6 +409,7 @@
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
   <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
@@ -422,6 +452,13 @@
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
   <project path="prebuilt/linux-x86/toolchain/linaro" name="Team-Hydra/linaro" />
   <project path="prebuilt/linux-x86/toolchain/linaro-arm-cortex-a8" name="Team-Hydra/linaro-arm-cortex-a8" />
+  <project path="prebuilt/linux-x86/toolchain/linaro-arm-a15" name="Team-Hydra/linaro-arm-a15" />
+  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="prebuilts/clang/darwin-x86/host/3.3" name="platform/prebuilts/clang/darwin-x86/host/3.3" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
@@ -430,6 +467,17 @@
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" remote="aosp" groups="pdk,darwin,arm" revision="refs/tags/android-4.4.2_r2" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
@@ -468,7 +516,9 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="vendor/cm" name="Solitarily/android_vendor_cm" />
+  <project path="vendor/asus" name="Team-Hydra/android_vendor_asus" />
+  <project path="vendor/cm" name="Team-Hydra/android_vendor_cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
-  <project path="vendor/htc/rider" name="Solitarily/android_vendor_htc_rider" />
-  </manifest>
+  <project path="vendor/htc" name="Team-Hydra/android_vendor_htc" />
+  <project path="vendor/samsung" name="Team-Hydra/android_vendor_samsung" />
+</manifest>

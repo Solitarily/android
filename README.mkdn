@@ -1,14 +1,14 @@
-Solitarily CM Based Manifest
+Team-Hydra CM Based Manifest
 ===========
 
 Getting Started
 ---------------
 
-To get started with Solitarily/CyanogenMod build, you'll need to get familiar with Git and Repo.
+To get started with Team-Hydra/CyanogenMod build, you'll need to get familiar with Git and Repo.
 
-To initialize your local repository using the Solitarily trees, use a command like this:
+To initialize your local repository using the Team-Hydra trees, use a command like this:
 
-    repo init -u git://github.com/Solitarily/android.git -b cm-11.0
+    repo init -u git://github.com/Team-Hydra/android.git -b cm-11.0
 
 Then to sync up:
 
